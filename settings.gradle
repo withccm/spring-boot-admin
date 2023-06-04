@@ -1,0 +1,5 @@
+rootProject.name = 'spring-boot-admin'
+include 'server'
+include 'member-client'
+include 'book-client'
+

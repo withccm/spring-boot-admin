@@ -1,0 +1,5 @@
+.gradle/
+.idea/
+book-client/build/
+member-client/build/
+server/build/

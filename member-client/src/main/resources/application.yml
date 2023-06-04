@@ -1,0 +1,24 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: member-client
+  boot:
+    admin:
+      client:
+        url: http://localhost:8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,httptrace,caches,metrics
+---
+spring:
+  config:
+    activate:
+      on-profile: test2
+
+server:
+  port: 8083

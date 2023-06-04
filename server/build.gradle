@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'com.withccm'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/de.codecentric/spring-boot-admin-starter-server
+    implementation 'de.codecentric:spring-boot-admin-starter-server:2.5.4'
+}
